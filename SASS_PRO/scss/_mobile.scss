@@ -1,0 +1,15 @@
+// device set-up
+@media(max-width: 700px) {
+.showcase {
+    height: 400px;
+
+    &-content {
+        text-align: center;
+
+        img {
+            display: none;      /* for tiny screens */
+            }
+
+        }
+    }
+}
